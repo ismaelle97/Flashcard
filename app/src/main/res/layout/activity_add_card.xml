@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/questionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="40dp"
+        android:hint="Enter the Question here"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/answerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/questionEditText"
+        android:hint="Enter the Answer here" />
+
+    <EditText
+        android:id="@+id/wrongAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/answerEditText"
+        android:ems="20"
+        android:hint="Enter wrong Answer option here" />
+
+    <EditText
+        android:id="@+id/wrongAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_below="@id/wrongAnswer"
+        android:layout_marginTop="10dp"
+        android:ems="20"
+        android:hint="Enter another wrong Answer here"
+        android:textSize="25sp" />
+
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/baseline_save_as_24" />
+
+    <ImageView
+        android:id="@+id/cancel_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/baseline_cancel_24" />
+
+</RelativeLayout>
+
