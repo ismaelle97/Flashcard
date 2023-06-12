@@ -3,7 +3,7 @@
 ## Lab 2
 
 
-<img src="https://github.com/ismaelle97/Flashcard/blob/main/Lab2.gif)" width=200><br>
+<img src="https://github.com/ismaelle97/Flashcard/blob/main/Lab2.gif" width=200><br>
 
 
 ## Required
