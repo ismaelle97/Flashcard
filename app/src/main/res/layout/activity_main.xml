@@ -7,19 +7,16 @@
     android:background="@drawable/bgapp"
     tools:context=".MainActivity">
 
-
     <TextView
         android:id="@+id/Question"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="40dp"
+
         android:background="@drawable/card_background"
-        android:elevation="5dp"
         android:gravity="center"
         android:text="Who is the 46th president of USA?"
         android:textColor="@color/white"
@@ -30,41 +27,44 @@
     <TextView
         android:id="@+id/Answer1"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/Question"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
         android:layout_marginEnd="75dp"
-        android:background="@color/blue"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/bg_text"
         android:gravity="center"
+        android:padding="10dp"
         android:text="Joe Biden."
         android:textSize="40sp" />
+
     <TextView
         android:id="@+id/Answer2"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:text="Donald Trump."
+        android:layout_height="wrap_content"
         android:layout_below="@id/Answer1"
-        android:textSize="40sp"
-        android:gravity="center"
-        android:background="@color/blue"
-        android:layout_marginEnd="75dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
         android:layout_centerInParent="true"
-        />
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/bg_text"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Donald Trump."
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/Answer3"
         android:layout_width="match_parent"
-        android:layout_height="70sp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/Answer2"
         android:layout_marginStart="40sp"
         android:layout_marginTop="40sp"
         android:layout_marginEnd="40sp"
         android:layout_marginBottom="40sp"
-        android:background="@color/blue"
+        android:background="@drawable/bg_text"
         android:gravity="center"
+        android:padding="10dp"
         android:text="Barack Obama"
         android:textSize="40sp" />
 
@@ -92,6 +92,30 @@
         android:layout_marginTop="50dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/next_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="520dp"
+        android:background="@drawable/baseline_navigate_next_24"
+        />
+
+    <ImageView
+        android:id="@+id/delete_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/baseline_delete_24" />
+
 
 </RelativeLayout>
 

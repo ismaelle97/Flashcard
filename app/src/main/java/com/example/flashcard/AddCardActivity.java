@@ -63,13 +63,13 @@ public class AddCardActivity extends AppCompatActivity {
                 answer2 = answer2EditText.getText().toString();
                 answer3 = answer3EditText.getText().toString();
 
-//                if (!question.isEmpty() && !answer.isEmpty()) {
-//                    // Do something with the user input
-//                    Toast.makeText(AddCardActivity.this, "Card saved!", Toast.LENGTH_SHORT).show();
-//                    finish();
-//                } else {
-//                    Toast.makeText(AddCardActivity.this, "Please enter both question and answer", Toast.LENGTH_SHORT).show();
-//                }
+               if (!question.isEmpty() && !answer.isEmpty()) {
+                   // Do something with the user input
+                   Toast.makeText(AddCardActivity.this, "Card saved!", Toast.LENGTH_SHORT).show();
+                    finish();
+                } else {
+
+                }
 
                 if(!question.isEmpty() || !answer1.isEmpty() || !answer2.isEmpty() || !answer3.isEmpty()) {
                     mainActivityIntent.putExtra("Question", question);
