@@ -8,21 +8,34 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/timer"
+        android:background="@drawable/timer"
+        android:gravity="center"
+        android:text="10s" />
+
+    <TextView
         android:id="@+id/Question"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="40dp"
-
         android:background="@drawable/card_background"
         android:gravity="center"
         android:text="Who is the 46th president of USA?"
         android:textColor="@color/white"
         android:textSize="35sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/Answer1"
@@ -32,7 +45,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
         android:layout_marginEnd="75dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="90dp"
         android:background="@drawable/bg_text"
         android:gravity="center"
         android:padding="10dp"
@@ -61,7 +74,7 @@
         android:layout_marginStart="40sp"
         android:layout_marginTop="40sp"
         android:layout_marginEnd="40sp"
-        android:layout_marginBottom="40sp"
+        android:layout_marginBottom="30sp"
         android:background="@drawable/bg_text"
         android:gravity="center"
         android:padding="10dp"
@@ -99,9 +112,8 @@
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="300dp"
-        android:layout_marginBottom="520dp"
-        android:background="@drawable/baseline_navigate_next_24"
-        />
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/baseline_navigate_next_24" />
 
     <ImageView
         android:id="@+id/delete_btn"
